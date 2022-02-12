@@ -5,7 +5,7 @@ Description: Write a function that returns the string "something" joined with a 
 */
 
 function giveMeSomething($a) {
-	return "something " .$a;
+	echo ("something " .$a);
 }
 
 giveMeSomething("Bob Jane");

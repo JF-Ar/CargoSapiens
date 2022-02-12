@@ -9,7 +9,7 @@ losses get 0 points
 
 function getPoints($wins, $draws, $losses) {
 	$points = ($wins*3) + ($draws*1) + ($losses*0);
-	return $points;
+	echo ($points);
 	
 }
 

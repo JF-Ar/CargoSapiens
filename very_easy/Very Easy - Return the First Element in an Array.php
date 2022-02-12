@@ -5,7 +5,7 @@ Description: Create a function that takes an array containing only numbers and r
 */
 
 function FirstValue($array) {
-	return $array[0];
+	echo ($array[0]);
 	
 }
 

@@ -5,7 +5,7 @@ Description: Create a function that takes a number as an argument, increments th
 */
 
 function addition($num) {
-	return $num+1;
+	echo ($num+1);
 }
 
 addition(0);

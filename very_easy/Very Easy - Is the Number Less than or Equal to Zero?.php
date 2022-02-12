@@ -6,10 +6,10 @@ Description: Create a function that takes a number as its only argument and retu
 
 function lessThanOrEqualToZero($num) {
 	if ($num <= 0){
-		return true;
+		return (true); 
 	}else{
-		return false;
+		return (false); 
 	}
 }
 
-lessThanOrEqualToZero(0);
+lessThanOrEqualToZero(1);

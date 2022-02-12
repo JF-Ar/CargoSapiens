@@ -7,9 +7,9 @@ Description: Create a function that returns true if a string is empty and false 
 function EmptyOrNot($str) {
 	$i = strlen($str);
 	if ($i == 0){
-		return true;
+		echo true;
 	}else{
-		return false;
+		echo false;
 	}	
 }
 EmptyOrNot('');
